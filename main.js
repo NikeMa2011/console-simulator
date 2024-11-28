@@ -15,6 +15,9 @@ const specialKeys = ["CapsLock", "Shift", "Control", "Alt", "Meta", "Tab", "Esca
 
 // 文本/段落添加
 function addParagraph(text) {// 文本/段落
+    if(text == undefined) {
+        text = '';
+    }
     selectNum++;
     newElement = "<p id=\"" + selectNum + "\">" + text + "</p>";
     index.innerHTML += newElement;
