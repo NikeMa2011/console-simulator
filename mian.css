@@ -1,0 +1,8 @@
+p, span{
+    font: 1.5rem monospace;
+    color: #ffffff;
+    margin: 0.5rem 0.5rem;
+}
+body{
+    background-color: #000000;
+}
